@@ -2,3 +2,243 @@
     {description: 'e.g. add x + y', A: 'option1', B: 'option2', C: 'option3', D: 'option4', correct: 'A'},
     {description: 'e.g. add x + y', A: 'option1', B: 'option2', C: 'option3', D: 'option4', correct: 'A'}
 ]
+
+#Hard Addition, Subtraction, Multiplication and Division
+[
+    {description: '1,486 + 948 =', A: '2,434', B: '538', C: '2,436', D: '2,444', E: '2,433', correct: 'A'},
+
+    {description: '3,749 + 12,528 + 395 =', A: '16,777', B: '16,772', C: '16,277', D: '15,672', E: '16,672', correct: 'E'},
+
+    {description: '12,004 – 7,585 =', A: '4,409', B: '4,419', C: '5,419', D: '4,421', E: '19,589', correct: 'B'},
+
+    {description: '34,152 – 27,796 =', A: '6,345', B: '6,355', C: '5,356', D: '6,356', E: '6,357', correct: 'D'},
+
+    {description: '12.63 + 2,385 =', A: '2,397.63', B: '15.015', C: '3,648', D: '2,397.6', E: '239.763', correct: 'A'},
+
+    {description: '348.7 + 23.87 =', A: '3,510.87', B: '2,735.7', C: '372.57', D: '587.4', E: '362.75', correct: 'C'},
+
+    {description: '4,624 – 78.533 =', A: '4,545.533', B: '4,545.467', C: '4,702.533', D: '4,554.467', E: '5,454.467', correct: 'B'},
+
+    {description: '233.46 – 48.97 =', A: '134.49', B: '282.43', C: '185.49', D: '184.94', E: '184.49', correct: 'E'},
+
+    {description: 'Increase one million and fifty thousand by six hundred and seventy thousand and fourteen', A: '16,2714', B: '10,62714', C: '112,3014', D: '1,726,014', E: '2,230,014', correct: 'D'},
+
+    {description: 'Decrease four million and seven by four hundred and ninety six thousand and eleven', A: '2,434', B: '538', C: '2,436', D: '2,444', E: '2,433', correct: 'A'},
+
+    {description: '248 x 317 =', A: '78,616', B: '92,008', C: '565', D: '78,615', E: '78,161', correct: 'A'},
+
+    {description: '14.25 x 25.5 =', A: '363.375', B: '3,633.75', C: '363,,375', D: '36,337.5', E: '363.753', correct: 'A'},
+
+    {description: '3³ x 8² =', A: '192', B: '384', C: '576', D: '144', E: '24', correct: 'C'},
+
+    {description: '228 ÷ 12 =', A: '20', B: '10', C: '8', D: '19', E: '18', correct: 'D'},
+
+    {description: '344 ÷ 18 = (Express your answer to 2 decimal places)', A: '11.11', B: '15.12', C: '18.12', D: '19.12', E: '19.11', correct: 'D'},
+
+    {description: '6³ ÷ 2³ =', A: '28', B: '8', C: '26', D: '216', E: '27', correct: 'E'},
+
+    {description: 'If a plant is placed in the ground when it is 2cm tall and it grows at a rate of 3.6mm per day, how tall will it be after 25 days?', A: '9cm', B: '11cm', C: '2.9cm', D: '2.36cm', E: '11mm', correct: 'B'},
+
+    {description: 'What is 478 divided by 13? Express your answer to 2 decimal places.', A: '36.77', B: '36.76', C: '36.769', D: '36.7', E: '36.8', correct: 'A'},
+
+    {description: 'What is the remainder when 6,378 is divided by 5?', A: '1', B: '2', C: '3', D: '6', E: '5', correct: 'C'},
+
+    {description: 'When Nirain’s number is multiplied by 17, his calculator displays 272. What is Nirain’s number?', A: '18', B: '12', C: '4624', D: '16', E: '17', correct: 'D'},
+
+]
+
+#Hard Algebra
+
+[
+    {description: '4x + 19 = 47. What is the value of x?', A: '3', B: '5', C: '6', D: '8', E: '7', correct: 'E'},
+
+    {description: '87 – 3y = 51. What is the value of y?', A: '6', B: '18', C: '12', D: '11', E: '10', correct: 'C'},
+
+    {description: '5x + 7 = 8x – 5. What is the value of x?', A: '4', B: '5', C: '6', D: '7', E: '3', correct: 'A'},
+
+    {description: '3y + 3y = 48. What is the value of y?', A: '6', B: '4', C: '10', D: '8', E: '9', correct: 'D'},
+
+    {description: '6t – 3t = 15. What is the value of t?', A: '4', B: '7', C: '8', D: '6', E: '5', correct: 'E'},
+
+    {description: '8d = 81 – d. What is the value of d?', A: '8', B: '9', C: '8.5', D: '6', E: '3', correct: 'B'},
+
+    {description: 'g² = 9² - 17. What is the value of g?', A: '6', B: '7', C: '8', D: '9', E: '5', correct: 'C'},
+
+    {description: 'y³ = z² + 4. If z = 11. What is the value of y?', A: '4', B: '7', C: '50', D: '5', E: '6', correct: 'D'},
+
+    {description: 'The area of a square is 169cm². If each side measures xcm, what is the value of x?', A: '13cm', B: '12cm', C: '10cm', D: '15cm', E: '11cm', correct: 'A'},
+
+    {description: 'Nikhil will be x years old in 8 years’ time. How old was he 6 years ago?', A: 'x+14', B: 'x-14', C: 'x-12', D: 'x-6', E: 'x+6', correct: 'B'},
+
+]
+
+# Hard Area, Perimeter and Volume
+
+[
+    {description: 'If the volume of a cube is 216cm³, what is the length of one side?', A: '6cm', B: '36cm', C: '8cm', D: '24cm', E: '3cm', correct: 'A'},
+
+    {description: 'If the length of one side of a cube is 4cm, what is the volume?', A: '32cm³', B: '16cm³', C: '64cm³', D: '12cm³', E: '24cm³', correct: 'C'},
+
+    {description: 'A water trough has a length of 120cm, a width of 60cm and a height of 40cm. What is the volume of water, when it is half full?', A: '288,000cm³', B: '144,000cm³', C: '144cm³', D: '28,000cm³', E: '14,000cm³', correct: 'B'},
+
+    {description: 'Corby has a small cube, with each side measuring 3cm. He also has a square box with a volume of 270cm³. How many of his small cubes can Corby fit into the big box?', A: '3', B: '100', C: '27', D: '10', E: '1', correct: 'D'},
+
+    {description: 'A storage warehouse has a volume of 6,912m³. If it has a height of 12m and a length of 36m, what is the width?', A: '8m', B: '16m', C: '4m', D: '24m', E: '6m', correct: 'B'},
+
+    {description: 'An isosceles triangle has a base of 4.5cm, 2 sides measuring 6.2cm each and a height of 5.4cm. What is the area of the triangle?', A: '12.05cm²', B: '12.15cm²', C: '11.15cm²', D: '12cm²', E: '10.15cm²', correct: 'B'},
+
+    {description: 'A scalene triangle has a base of 6.5cm, one side measuring 4.6cm and the third side measuring 5.3cm. If its height measures 4cm, what is the area of the triangle', A: '13cm²', B: '26cm²', C: '12cm²', D: '15cm²', E: '5cm²', correct: 'A'},
+
+    {description: 'If a triangle has a height of 48mm, a base of 56mm and both sides measure 42mm, what is the area of the triangle?', A: '1,344mm²', B: '2,688mm²', C: '134mm²', D: '2,344mm²', E: '34mm²', correct: 'A'},
+
+    {description: 'The area of a triangle is 2,304mm, if the base is 36mm, what is the height?', A: '64cm', B: '60mm', C: '6.4mm', D: '44mm', E: '64mm', correct: 'E'},
+
+    {description: 'Sally measures the perimeter of her garden. She takes the following measurements as she walks around the edge: 8.25m, 4.85m, 6.78m, 4.35m and 3.84m. What is the perimeter of Sally’s garden?', A: '2.807m', B: '2807m', C: '30.07m', D: '28.07m', E: '28m', correct: 'D'},
+
+]
+
+
+#Hard Average and Range
+
+[
+    {description: 'What is the median from the following numbers: 6.8, 4.2, 7.3, 8.21, 6.98?', A: '8.21', B: '6.98', C: '7.3', D: '6.8', E: '4.2', correct: 'B'},
+
+    {description: 'What is the mode from the following numbers: 4.8, 7, -3, 4, -2, 8, 0, 4, -4, -1?', A: '7', B: '8', C: '4', D: '-4', E: '0', correct: 'C'},
+
+    {description: 'What is the mean from the following numbers: 14.5, 13.75, 19.5, 16.25, 18.5?', A: '16.5', B: '16', C: '18.5', D: '15.75', E: '14.25', correct: 'A'},
+
+    {description: 'What is the range from the following numbers: -3, 18, 14, -7, 0, 23, 21, -1?', A: '35', B: '21', C: '20', D: '30', E: '23', correct: 'D'},
+
+    {description: 'What is the median from the following numbers: 6.8, 4.2, 9.7, 3.3, 14.2, 8.7?', A: '15.5', B: '6.75', C: '8.75', D: '7.7', E: '7.75', correct: 'E'},
+
+    {description: 'What is the mode from the following numbers: 0, 2, 1, 2, 1, 3, 1, 2, 0, 0, 1, 2?', A: '1', B: '1,2', C: '2', D: '0', E: '3', correct: 'B'},
+
+    {description: 'What is the mean from the following numbers: 43.7, 19.32, 16.86, 19.44, 33.78?', A: '26.62', B: '26.42', C: '24.62', D: '20.62', E: '26.6', correct: 'A'},
+
+    {description: 'What is the range from the following numbers: 14.79, 16.3, 15.87, 7.39, 5.6, 14.97?', A: '10.2', B: '12', C: '10', D: '10.7', E: '12.7', correct: 'D'},
+
+    {description: 'During the summer months, Wildbunch Wildlife Park charts the number of visitors it attracts each month as follows: May 2,036, June 6,821, July 8,436, August 8,687. If the price of a ticket is £15, what are the mean takings per month?', A: '£95,500', B: '£92,425', C: '£97,775', D: '£98,425', E: '£97,425', correct: 'E'},
+
+    {description: 'A school tuck shop made the following profits: Monday: £176.70, Tuesday: £142.47, Wednesday: £156.30, Thursday: £163.87, Friday: £193.96. What was the mean profit over the 5 days?', A: '£168.62', B: '£160.68', C: '£166.68', D: '£166.66', E: '£167.77', correct: 'D'},
+
+]
+
+#Hard Fractions, Decimals and Percentages
+
+[
+    {description: 'Express 6/25 as a percentage.', A: '25%', B: '24%', C: '6%', D: '23%', E: '20%', correct: 'B'},
+
+    {description: 'Express 11/20 as a percentage.', A: '11%', B: '52%', C: '40%', D: '60%', E: '55%', correct: 'E'},
+
+    {description: 'Which faction has the greatest value 7/9 or 8/11?', A: '8/11', B: '7/9', C: 'They are equal',  correct: 'B'},
+
+    {description: 'Which fraction has the lowest value 3/7 or 5/12?', A: '3/7', B: '5/12', C: 'They are equal', correct: 'B'},
+
+    {description: 'Which has the greatest value 0.65 or 8/12?', A: '0.65', B: '8/12', C: 'They are equal', correct: 'B'},
+
+    {description: 'Which of the following has the closest value to 1? 97.8%, 0.977, 24/25, 4/5, 90.99%', A: '97.8%', B: '0.977', C: '24/25', D: '4/5', E: '90.99', correct: 'A'},
+
+    {description: 'Oscar weighed 3.2kg when he was born. If a month later he weighed 4kg. What is the percentage increase of Oscar’s weight?', A: '60%', B: '20%', C: '40%', D: '30%', E: '25%', correct: 'E'},
+
+    {description: 'If Subhadra’s average weekly food shopping bill of £120 has increased by 22.5%. What is her new average weekly shopping bill?', A: '£127.00', B: '£140.00', C: '£147.00', D: '£133.00', E: '£122.00', correct: 'C'},
+
+    {description: '6P have been measuring rainfall. During April 80mm of rain fell, whereas in May only 32mm of rain fell. What was the percentage decrease over the two months?', A: '60%', B: '50%', C: '40%', D: '65%', E: '45%', correct: 'A'},
+
+    {description: 'Brendan is building a house. For every 24 red bricks used, he uses 4 yellow bricks. What fraction, in its simplest form, of the bricks are red?', A: '3/8', B: '/47', C: '5/6', D: '5/7', E: '6/7', correct: 'E'},
+
+]
+
+#Hard Missing Number Problems
+
+[
+    {description: '18.97 + ? = 31.6', A: '12.63', B: '12.23', C: '12.43', D: '11.63', E: '13.43', correct: 'A'},
+
+    {description: '? + 38.64 = 62.35', A: '23.69', B: '25.70', C: '23.64', D: '22.71', E: '23.71', correct: 'E'},
+
+    {description: '84.57 - ? = 67.59', A: '16.97', B: '16.98', C: '15.98', D: '17.99', E: '15.96', correct: 'B'},
+
+    {description: '? - 17.49 = 24.24', A: '42.74', B: '43.71', C: '40.73', D: '41.73', E: '42.71', correct: 'D'},
+
+    {description: '13 x ? = 91', A: '8', B: '7', C: '6', D: '5', E: '9', correct: 'B'},
+
+    {description: '? x 15 = 195', A: '12', B: '13', C: '15', D: '16', E: '23', correct: 'B'},
+
+    {description: '4.5 x ? = 40.5', A: '10.5', B: '9.5', C: '8', D: '10', E: '9', correct: 'E'},
+
+    {description: '136 ÷ ? = 8', A: '16', B: '8', C: '17', D: '18', E: '9', correct: 'C'},
+
+    {description: '98 ÷ ? = 14', A: '7', B: '6', C: '8', D: '9', E: '4', correct: 'A'},
+
+    {description: '39 ÷ ? = 6.5', A: '8', B: '7', C: '5', D: '6.5', E: '6', correct: 'E'},
+
+]
+
+#Hard Number Sequences and Rounding 
+
+[
+    {description: '84, 87, 86, 89, 88, ___, ___', A: '92, 90', B: '89, 90', C: '88, 89', D: '91, 90', E: '90, 91', correct: 'D'},
+
+    {description: '1, 1, 2, 3, 5, ___, ___', A: '8, 13', B: '6, 10', C: '5, 8', D: '8, 10', E: '13, 8', correct: 'A'},
+
+    {description: '2, 2, 4, 8, 16, ___, ___', A: '8, 32', B: '32, 48', C: '32, 64', D: '64, 32', E: '30, 64', correct: 'C'},
+
+    {description: '16, 22, 17, 23, 18, ___, ___', A: '19, 24', B: '20, 24', C: '15, 19', D: '24, 19', E: '21, 23', correct: 'D'},
+
+    {description: '-47, -37, -27, -17, -7, ___, __', A: '7, 17', B: '3, 13', C: '-3, 13', D: '-3, 3', E: '-7, 7', correct: 'B'},
+
+    {description: '41, 31, 21, 11, 1, ___, __', A: '9, 19', B: '-9, -19', C: '1, -9', D: '1, -19', E: '-1, -11', correct: 'B'},
+
+    {description: '48, 39, 31, 24, 18, ___, ___', A: '13, 9', B: '14, 10', C: '13, 8', D: '12, 7', E: '20, 21', correct: 'A'},
+
+    {description: '37, 43, 39, 45, 41, ___, ___', A: '47, 42', B: '46, 43', C: '48, 44', D: '43, 47', E: '47, 43', correct: 'E'},
+
+    {description: '14, 15.5, 17, 18.5, 20, ___, ___', A: '21.5, 22', B: '21.5, 23', C: '22.5, 23', D: '23.5, 23', E: '19.5, 23', correct: 'B'},
+
+    {description: '28, 30.5, 34, 38.5, 44, ___, ___', A: '58.5, 50', B: '51.5, 58', C: '50.5, 58', D: '50.5, 56', E: '50.5, 57', correct: 'C'},
+
+    {description: 'Round 335 to the nearest 10.', A: '340', B: '330', C: '335', D: '300', E: '350', correct: 'A'},
+
+    {description: 'Round 7,655 to the nearest 10.', A: '7,600', B: '7,660', C: '7,650', D: '7,670', E: '8,000', correct: 'B'},
+
+    {description: 'Round 13,551 to the nearest 100.', A: '13,000', B: '13,550', C: '14,000', D: '13,600', E: '13,500', correct: 'D'},
+
+    {description: 'Round 47,249 to the nearest 100.', A: '47,400', B: '47,000', C: '47,250', D: '47,300', E: '47,200', correct: 'E'},
+
+    {description: 'Round 6.7537 to 2 decimal places.', A: '6.75', B: '6.74', C: '6.76', D: '6.754', E: '6.77', correct: 'A'},
+
+    {description: 'Round 3.0796 to 2 decimal places.', A: '3.08', B: '3.09', C: '3.07', D: '3.10', E: '3.18', correct: 'A'},
+
+    {description: 'Round 14.4987 to 3 decimal places.', A: '14.450', B: '14.49', C: '14.499', D: '14.498', E: '14.500', correct: 'C'},
+
+    {description: 'Round 18.1942 to 3 decimal places.', A: '18.19', B: '18.193', C: '18.190', D: '18.195', E: '18.194', correct: 'E'},
+
+    {description: 'Round 12.7796 to 3 decimal places.', A: '12.779', B: '12.780', C: '12.778', D: '12.790', E: '12.770', correct: 'B'},
+
+    {description: 'Round 23.9996 to 3 decimal places.', A: '23.999', B: '23.000', C: '23.998', D: '24.000', E: '23.996', correct: 'D'},
+
+ ]
+
+#Hard Scale and Ratio
+
+[
+    {description: 'A map of North Devon has a scale of 1:125,000. What length on the map, in centimetres, represents 5km?', A: '0.5cm', B: '500cm', C: '50cm', D: '4cm', E: '5cm', correct: 'D'},
+
+    {description: 'How is 30km represented on a map which has a scale of 1:300,000?', A: '1000cm', B: '300cm', C: '10cm', D: '100cm', E: '30cm', correct: 'C'},
+
+    {description: 'If a map of Northern Ireland has a scale of 1:500,000. What is the real distance represented by 3cm?', A: '15km', B: '150cm', C: '1500cm', D: '15000cm', E: '1500m', correct: 'A'},
+
+    {description: 'How is the ratio 6:21 represented in its simplest form?', A: '1/3', B: '3/7', C: '4/7', D: '2/7', E: '1/7', correct: 'D'},
+
+    {description: '100 boys and girls went to a pantomime. If three out of every 5 children were girls, how many were boys?', A: '30', B: '40', C: '45', D: '35', E: '20', correct: 'B'},
+
+    {description: 'The ratio of vans to lorries in a building company car park was 4:7. If there were 28 lorries, how many vans and lorries were there in total?', A: '40', B: '44', C: '42', D: '16', E: '28', correct: 'B'},
+
+    {description: 'A farmer has a total of 84 cows and sheep on his farm. If the ratio is 3:4, how many sheep are there?', A: '84', B: '7', C: '42', D: '36', E: '48', correct: 'E'},
+
+    {description: 'A school decorator mixes blue, white and green paint in a ratio of 4:5:2. If he uses 28 pots of blue paint, how many pots of green and white paint does he use altogether?', A: '35', B: '48', C: '49', D: '14', E: '77', correct: 'C'},
+
+    {description: 'An architect draws a plan of a kitchen with a scale of 1:50. If the real length of the room is 6 metres, how is this represented on the plan in millimetres?', A: '1.2cm', B: '120mm', C: '12m', D: '12mm', E: '0.12cm', correct: 'B'},
+
+    {description: 'A factory manufactures steel tubes with a diameter of 560mm. If the tubes are drawn with a diameter of 112mm, what scale has been used to draw them?', A: '1:12', B: '5:1', C: '7:70', D: '1:3', E: '1:5', correct: 'E'},
+
+]
